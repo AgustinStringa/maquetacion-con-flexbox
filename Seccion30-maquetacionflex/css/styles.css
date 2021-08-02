@@ -204,7 +204,11 @@ div#projects {
     justify-content: space-between;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 500px) {
+    article.project {
+        opacity: 0;
+    }
+}
 
 article.project {
     flex-basis: 200px;
