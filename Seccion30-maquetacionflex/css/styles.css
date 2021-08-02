@@ -35,29 +35,30 @@ html {
     min-height: 600px;
 }
 
-.animacionProject {
-    animation-name: animacionProyectos;
-    animation-duration: 1000ms;
-    animation-iteration-count: .8s;
-}
-
-@keyframes animacionProyectos {
-    0% {
-        transform: translateY(60px);
-        opacity: 0;
+@media (max-width: 500px) {
+    .animacionProject {
+        animation-name: animacionProyectos;
+        animation-duration: 1000ms;
+        animation-iteration-count: .8s;
     }
-    25% {
-        opacity: .25;
-    }
-    50% {
-        opacity: .5;
-    }
-    75% {
-        opacity: .75;
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
+    @keyframes animacionProyectos {
+        0% {
+            transform: translateY(60px);
+            opacity: 0;
+        }
+        25% {
+            opacity: .25;
+        }
+        50% {
+            opacity: .5;
+        }
+        75% {
+            opacity: .75;
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 }
 
