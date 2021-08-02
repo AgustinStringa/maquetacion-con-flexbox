@@ -8,10 +8,9 @@ $(document).ready(function() {
 
 
     //ocultar elementos para scroll
-    for (var i = 0; i < arrProjects.length; i++) {
-        arrProjects[i].style.opacity = "0";
-
-    }
+    // for (var i = 0; i < arrProjects.length; i++) {
+    //     arrProjects[i].style.opacity = "0";
+    // }
 
 
 
