@@ -37,7 +37,7 @@ $(document).ready(function() {
             for (var i = 0; i < arrProjects.length; i++) {
                 let altura = arrProjects[i].offsetTop;
 
-                if ((scroll + 350) > altura) {
+                if ((scroll + 375) > altura) {
 
                     arrProjects[i].classList.add('animacionProject');
                     arrProjects[i].style.opacity = "1";
